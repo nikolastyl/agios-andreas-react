@@ -1,0 +1,41 @@
+
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+  }
+  
+  .form-container {
+    font-family: 'Zapfino';
+    font-weight: bold;
+    background-color: #aed9ff;
+    padding: 1cm;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); 
+    width: 450px;
+    z-index: 1;
+    position: flex;
+    text-align: center;
+  }
+  
+  
+  .side-image {
+    position: absolute;
+    width: 220px;
+    z-index: 2;
+    margin-right: -70px; 
+    left: 57%; 
+    transform: translateX(-200%); 
+  }
+  
+
+  .fireworks-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+  }
+  
