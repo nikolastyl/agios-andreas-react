@@ -181,7 +181,7 @@ const Test2 = () => {
         <button onClick={handleAnswerSubmit}>Υποβολή</button>
       </div>
       {selectedAnswer !== null && currentQuestion === questions.length - 1 && (
-        <button className='rightButton' onClick={() => navigate('/repet-theory', { state: { myData: myData } })}>Συνέχεια <br /> &#8594;</button>
+        <button className='rightButton' onClick={() => navigate('/theory-part-3', { state: { myData: myData } })}>Επόμενη Ενότητα<br /> &#8594;</button>
       )}
     </div>
   );

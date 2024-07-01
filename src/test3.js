@@ -3,9 +3,9 @@ import axios from 'axios';
 import TypingEffect from 'react-typing-effect';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-import stadio1 from "./assets/stadio1.jpeg";
-import stadio2 from "./assets/stadio2.jpeg";
-import odeio1 from "./assets/odeio1.jpeg";
+import stadio1 from "./assets/stadio1.jpg";
+import stadio2 from "./assets/stadio2.jpg";
+import odeio1 from "./assets/odeio1.jpg";
 
 import './BackgroundSlider.css';
 
@@ -94,9 +94,9 @@ const Test3 = () => {//change
 
   return (
     <div className='btns'>
-      <div className='title3'>//change
+      <div className='title2'>//change
         <div className='parent-container'>
-          <h2>3ο τέστ αξιολόγησης</h2>//change
+          <h2>3ο τέστ αξιολόγησης</h2>
         </div>
       </div>
       <div>
@@ -183,4 +183,4 @@ const Test3 = () => {//change
   );
 };
 
-export default Test3;//change
+export default Test3;

@@ -31,7 +31,7 @@ const TheoryPart2 = () => {
   useEffect(() => {
     const fetchChapters = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api/theory-parts/module-3');//change on backend
+        const response = await axios.get('http://localhost:8080/api/theory-parts/module-3');
         setChapters(response.data);
       } catch (error) {
         console.error('Error fetching chapters:', error);
@@ -58,7 +58,7 @@ const TheoryPart2 = () => {
 
   return (
     <div className='btns'>
-      <div className='title3'>
+      <div className='title2'>
       <div className='parent-container'>
       <h2>{chapters[currentChapter]?.titleOfPart || 'Welcome to the Presentation of the St. Andrew Church in Patras'}</h2>
       </div>
@@ -71,7 +71,7 @@ const TheoryPart2 = () => {
           <div className="content">
             {chapters.length > 0 && (
               <TypingEffect
-              key={chapters[currentChapter]?.id} // Χρήση του id του κεφαλαίου ως key
+              key={chapters[currentChapter]?.id} 
               text={[chapters[currentChapter]?.content || '']}
               speed={70}
               eraseSpeed={0}
