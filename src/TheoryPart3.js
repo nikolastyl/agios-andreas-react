@@ -3,20 +3,16 @@ import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import TypingEffect from 'react-typing-effect';
 import { useNavigate } from 'react-router-dom';
-import image1 from "./assets/image10.jpeg";
-import image2 from "./assets/image2.jpeg";
-import image3 from "./assets/image3.jpeg";
-import image4 from "./assets/image4.jpeg";
-import image5 from "./assets/image5.jpeg";
-import image6 from "./assets/image6.webp";
-import image7 from "./assets/image7.jpeg";
+import stadio1 from "./assets/stadio1.jpg";
+import stadio2 from "./assets/stadio2.jpg";
+import odeio1 from "./assets/odeio1.jpg";
 
 import './BackgroundSlider.css';
 
 
 
 const TheoryPart2 = () => {
-  const images = [image1, image2, image3, image4, image5, image6, image7];
+  const images = [stadio1,stadio2,odeio1];
 
   const [currentImage, setCurrentImage] = useState(0);
   const [chapters, setChapters] = useState([]);
